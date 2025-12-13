@@ -3,7 +3,7 @@
 #                      take any parameters.
 #                      You can't use overloaded functions
 #                  ex: def greeting():     def greeting(name): doesn't work
-#                      returns and early return and all that works the same way
+#                      returns, early return and all that works the same way
 #                      they do in cpp 
 
 
@@ -27,5 +27,6 @@ greeting()
 greetingWithNameParameter("Mahmud")
 
 print(add(1, 2))
+
 
 print( capitalizeFirstLetter("mahmud") )
