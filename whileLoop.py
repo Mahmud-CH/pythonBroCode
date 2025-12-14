@@ -1,7 +1,4 @@
-# while loops = here while loops work differently 
-#               if the parameter's True it continues else it exits
-#               in c++ it's the opposite if the parameter's True it exits
-#               if it's False it continues
+# while loops = they work the same way they do in cpp
 
 number = 1
 while number == 1:
@@ -12,5 +9,6 @@ while number == 1:
 name = ""
 while name == "":
   name = input("Enter your name: ")
+
 
 print(f"Hello {name}.")
